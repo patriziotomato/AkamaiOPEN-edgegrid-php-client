@@ -16,7 +16,7 @@
         "akamai-open/edgegrid-auth": "^1.0.0",
         "guzzlehttp/guzzle": "^6.1.1",
         "psr/log": "^1.0",
-        "monolog/monolog": "^2.0",
+        "monolog/monolog": "^1.15|^2.0",
         "league/climate": "~3.2"
     },
     "require-dev": {
@@ -38,7 +38,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.5"
+            "php": "7.2"
         }
     },
     "bin": [
@@ -51,7 +51,7 @@
             "@build-phar",
             "@fix-cs"
         ],
-        "test": "phpunit",
+        "test": "vendor/bin/phpunit",
         "build-docs": [
             "rm -Rf docs",
             "composer install",
