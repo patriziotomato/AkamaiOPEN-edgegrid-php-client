@@ -38,7 +38,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.5"
+            "php": "7.2"
         }
     },
     "bin": [
@@ -51,7 +51,7 @@
             "@build-phar",
             "@fix-cs"
         ],
-        "test": "phpunit",
+        "test": "vendor/bin/phpunit",
         "build-docs": [
             "rm -Rf docs",
             "composer install",
