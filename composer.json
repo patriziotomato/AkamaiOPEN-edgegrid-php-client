@@ -1,5 +1,5 @@
 {
-    "name": "akamai-open/edgegrid-client",
+    "name": "patriziotomato/edgegrid-client",
     "description": "Implements the Akamai {OPEN} EdgeGrid Authentication specified by https://developer.akamai.com/introduction/Client_Auth.html",
     "keywords": ["akamai", "open", "edgegrid", "authentication", "client"],
     "type": "library",
