@@ -4,15 +4,14 @@
     "keywords": ["akamai", "open", "edgegrid", "authentication", "client"],
     "type": "library",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/akamai-open/AkamaiOPEN-edgegrid-php",
     "authors": [
         {
-            "name": "Davey Shafik",
-            "email": "dshafik@akamai.com"
+            "name": "Patrick Thomas",
+            "email": "github@patrick-thomas.de"
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.2",
         "akamai-open/edgegrid-auth": "^1.0.0",
         "guzzlehttp/guzzle": "^6.1.1",
         "psr/log": "^1.0",
